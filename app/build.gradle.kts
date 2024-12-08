@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.calberto_barbosa_jr.maximizingrevenues"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.calberto_barbosa_jr.maximizingrevenues"
@@ -56,4 +56,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation ("com.github.PhilJay:MPAndroidChart:v3.1.0")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.5.0")
 }
